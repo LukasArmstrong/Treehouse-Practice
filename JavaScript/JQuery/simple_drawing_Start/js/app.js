@@ -52,7 +52,6 @@ $canvas.mousedown(function(e){
     context.lineTo(e.offsetX,e.offsetY);
     context.strokeStyle = color;
     context.stroke();
-    lastEvent = e;
   }
 }).mouseup(function(){
   mouseDown = false;
